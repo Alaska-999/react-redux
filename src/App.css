@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .cash-count {
@@ -17,6 +18,10 @@
     margin-right: 15px;
 }
 
+.container {
+    display: flex;
+    margin-bottom: 20px;
+}
 
 .container button {
     font-size: 1.5rem;
@@ -33,4 +38,11 @@
     background-color: #34a9a9;
 }
 
+.customers {
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
 
