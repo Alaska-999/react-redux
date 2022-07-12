@@ -1,9 +1,11 @@
 import './App.css';
 import {useDispatch, useSelector} from "react-redux";
+import {logDOM} from "@testing-library/react";
+import {store} from "./store";
 
 function App() {
     const dispatch = useDispatch()
-    const cash = useSelector(state => state.cash)
+    const cash = useSelector(state => state.cash.cash)
     console.log(cash)
 
     function addCash(cash) {
